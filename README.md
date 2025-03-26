@@ -1,4 +1,4 @@
-# Projeto de Automação de Testes Web - Java + Selenium + Cucumber (Gherkin)
+# Teste automatizando de busca no blog da AGI
 
 Este projeto tem como objetivo realizar a automação de testes Web utilizando Java, Selenium WebDriver e Cucumber (Gherkin), seguindo o padrão Page Object Model (POM).
 
@@ -36,8 +36,8 @@ Este projeto tem como objetivo realizar a automação de testes Web utilizando J
 ### Passos para Configuração
 1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/gnfranco92/web-autom-java.git
+cd web-autom-java
 ```
 2. Compile o projeto:
 ```bash
@@ -45,7 +45,7 @@ mvn clean compile
 ```
 3. Execute os testes:
 ```bash
-mvn test
+mvn clean test
 ```
 
 ## 🔁 Integração Contínua com GitHub Actions
